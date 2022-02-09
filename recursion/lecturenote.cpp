@@ -23,3 +23,5 @@ int main()
     cout << "The factorial is: " << factorial(N) <<endl;
     return 0;
 }
+
+//from lecture notes in Stevens course CPE360 taught by professor Iyengar 
