@@ -12,3 +12,5 @@ The computer will calculate factorial of 4 by saying, factorial 4 is just factor
 So the computer will go back to the begining of the function and try factorial of 3 times factorial of 2, only to go back to the begining again to check what factorial of 2 is
 
 Until it reaches factorial 1, then it will arrive with the anser fo factorial 4. 
+
+The final step is delivering the factorial 1 to factorial 2, all the way to factorial 4. Now the porgram knows what 4! is. 
