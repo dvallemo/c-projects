@@ -86,3 +86,5 @@ int main ()
     cout << "New Price: " << iptr->price << ", ratings: " << iptr->ratings << endl;
 
 }
+
+//(Lecture. Stevens. 2022)
