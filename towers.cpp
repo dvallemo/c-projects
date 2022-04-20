@@ -2,24 +2,24 @@
 
 using namespace std;
 
-void hanoi(int N, char S, char I, char D);
+void hanoi(int N, char S, char I, char D)
 {
-    //Base case 
-    if (N==1)
-    {
-        cout << "Move " << N << " from " << S << " ---->"<< D endl;     
-    }
-    //Drive N towards base case
-    else {
-        hanoi(N-1, S, D, I);
-        cout << "Move " << N << " from " << S << " ---->"<< D endl; 
-        hanoi (N-1, I, S, D);
-    }
+//Base case 
+if (N==1)
+{
+cout << "Move " << N << " from " << S << " ---->"<< D << endl;
+}
+//Drive N towards base case
+else {
+hanoi(N-1, S, D, I);
+cout << "Move " << N << " from " << S << " ---->"<< D << endl;
+hanoi (N-1, I, S, D);
+}
 }
 
-int main() 
+int main()
 {
-    int N; 
+    int N;
     char S = 'S', I ='I', D='D';
 
     cout << "Give me the # of discs: " << endl;
