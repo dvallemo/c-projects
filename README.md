@@ -1,7 +1,7 @@
 # c-projects
 
 # Basics of c++
-# full pdf(work in progress) in basics of c++ floder
+# full pdf(work in progress) in basics of c++ folder
 1 Template:
 #include <bits/stdc++.h>
 using namespace std; 
